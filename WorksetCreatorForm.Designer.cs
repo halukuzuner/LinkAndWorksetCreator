@@ -1,4 +1,4 @@
-﻿namespace LinkAndWorksetCreator
+namespace LinkAndWorksetCreator
 {
     partial class WorksetCreatorForm
     {
@@ -38,7 +38,7 @@
             dataGridViewWorksetsID = new DataGridViewTextBoxColumn();
             dataGridViewTextBoxColumn1 = new DataGridViewTextBoxColumn();
             btnGetWorkSets = new Button();
-            btnCreateWorkset = new Button();
+            btnCreateWorksets = new Button();
             Prefix = new Label();
             textBoxPrefix = new TextBox();
             label2 = new Label();
@@ -52,17 +52,17 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(102, 4);
+            label1.Location = new Point(102, 5);
             label1.Name = "label1";
-            label1.Size = new Size(38, 15);
+            label1.Size = new Size(43, 17);
             label1.TabIndex = 0;
             label1.Text = "label1";
             // 
             // btnGetRevitLinks
             // 
-            btnGetRevitLinks.Location = new Point(427, 16);
+            btnGetRevitLinks.Location = new Point(427, 18);
             btnGetRevitLinks.Name = "btnGetRevitLinks";
-            btnGetRevitLinks.Size = new Size(100, 25);
+            btnGetRevitLinks.Size = new Size(100, 28);
             btnGetRevitLinks.TabIndex = 1;
             btnGetRevitLinks.Text = "Get &Links";
             btnGetRevitLinks.UseVisualStyleBackColor = true;
@@ -74,10 +74,10 @@
             dataGridView1.AllowUserToDeleteRows = false;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { col_Check, col_RvtLinkName });
-            dataGridView1.Location = new Point(6, 42);
+            dataGridView1.Location = new Point(6, 48);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersVisible = false;
-            dataGridView1.Size = new Size(524, 172);
+            dataGridView1.Size = new Size(524, 195);
             dataGridView1.TabIndex = 2;
             // 
             // col_Check
@@ -100,10 +100,10 @@
             dataGridView2.AllowUserToDeleteRows = false;
             dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView2.Columns.AddRange(new DataGridViewColumn[] { dataGridViewCheckBoxColumn1, dataGridViewWorksetsID, dataGridViewTextBoxColumn1 });
-            dataGridView2.Location = new Point(6, 245);
+            dataGridView2.Location = new Point(6, 278);
             dataGridView2.Name = "dataGridView2";
             dataGridView2.RowHeadersVisible = false;
-            dataGridView2.Size = new Size(524, 114);
+            dataGridView2.Size = new Size(524, 129);
             dataGridView2.TabIndex = 3;
             // 
             // dataGridViewCheckBoxColumn1
@@ -132,73 +132,73 @@
             // 
             // btnGetWorkSets
             // 
-            btnGetWorkSets.Location = new Point(427, 219);
+            btnGetWorkSets.Location = new Point(427, 248);
             btnGetWorkSets.Name = "btnGetWorkSets";
-            btnGetWorkSets.Size = new Size(100, 25);
+            btnGetWorkSets.Size = new Size(100, 28);
             btnGetWorkSets.TabIndex = 2;
             btnGetWorkSets.Text = "Get &Worksets";
             btnGetWorkSets.UseVisualStyleBackColor = true;
             btnGetWorkSets.Click += btnGetWorkSets_Click;
             // 
-            // btnCreateWorkset
+            // btnCreateWorksets
             // 
-            btnCreateWorkset.Location = new Point(427, 365);
-            btnCreateWorkset.Name = "btnCreateWorkset";
-            btnCreateWorkset.Size = new Size(100, 25);
-            btnCreateWorkset.TabIndex = 3;
-            btnCreateWorkset.Text = "&Create Workset";
-            btnCreateWorkset.UseVisualStyleBackColor = true;
-            btnCreateWorkset.Click += btnCreateWorkset_Click;
+            btnCreateWorksets.Location = new Point(407, 415);
+            btnCreateWorksets.Name = "btnCreateWorksets";
+            btnCreateWorksets.Size = new Size(120, 28);
+            btnCreateWorksets.TabIndex = 3;
+            btnCreateWorksets.Text = "&Create Worksets";
+            btnCreateWorksets.UseVisualStyleBackColor = true;
+            btnCreateWorksets.Click += btnCreateWorkset_Click;
             // 
             // Prefix
             // 
             Prefix.AutoSize = true;
-            Prefix.Location = new Point(280, 369);
+            Prefix.Location = new Point(273, 421);
             Prefix.Name = "Prefix";
-            Prefix.Size = new Size(36, 15);
+            Prefix.Size = new Size(40, 17);
             Prefix.TabIndex = 5;
             Prefix.Text = "Prefix";
             // 
             // textBoxPrefix
             // 
-            textBoxPrefix.Location = new Point(333, 365);
+            textBoxPrefix.Location = new Point(315, 417);
             textBoxPrefix.Name = "textBoxPrefix";
-            textBoxPrefix.Size = new Size(88, 23);
+            textBoxPrefix.Size = new Size(88, 25);
             textBoxPrefix.TabIndex = 6;
             textBoxPrefix.Text = "RvtLink ";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(6, 4);
+            label2.Location = new Point(6, 5);
             label2.Name = "label2";
-            label2.Size = new Size(91, 15);
+            label2.Size = new Size(97, 17);
             label2.TabIndex = 0;
             label2.Text = "This Document:";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(6, 25);
+            label3.Location = new Point(6, 28);
             label3.Name = "label3";
-            label3.Size = new Size(63, 15);
+            label3.Size = new Size(68, 17);
             label3.TabIndex = 0;
             label3.Text = "Revit Links";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(6, 228);
+            label4.Location = new Point(6, 258);
             label4.Name = "label4";
-            label4.Size = new Size(55, 15);
+            label4.Size = new Size(61, 17);
             label4.TabIndex = 0;
             label4.Text = "Worksets";
             // 
             // btnExit
             // 
-            btnExit.Location = new Point(6, 366);
+            btnExit.Location = new Point(6, 416);
             btnExit.Name = "btnExit";
-            btnExit.Size = new Size(75, 23);
+            btnExit.Size = new Size(75, 26);
             btnExit.TabIndex = 4;
             btnExit.Text = "E&xit";
             btnExit.UseVisualStyleBackColor = true;
@@ -206,13 +206,13 @@
             // 
             // WorksetCreatorForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(537, 396);
+            ClientSize = new Size(537, 449);
             Controls.Add(btnExit);
             Controls.Add(textBoxPrefix);
             Controls.Add(Prefix);
-            Controls.Add(btnCreateWorkset);
+            Controls.Add(btnCreateWorksets);
             Controls.Add(dataGridView2);
             Controls.Add(dataGridView1);
             Controls.Add(btnGetWorkSets);
@@ -237,7 +237,7 @@
         private DataGridView dataGridView1;
         private DataGridView dataGridView2;
         private Button btnGetWorkSets;
-        private Button btnCreateWorkset;
+        private Button btnCreateWorksets;
         private Label Prefix;
         private TextBox textBoxPrefix;
         private Label label2;
